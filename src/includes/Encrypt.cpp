@@ -4,7 +4,7 @@
 std::string encrypt(std::string strToEncrypt);
 std::string decrypt(std::string strToDecrypt);
 
- //f is key, e is value. Change to anything you desire.
+//Change key order to anything you desire. It must equal the length of value
 std::vector<char> key {'a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z','1','2','3','4','5','6','7','8','9','0'};
 std::vector<char> value {'a','q','z','x','s','w','e','d','c','v','f','r','4','5','6','3','2','7','1','9','8','0','t','g','b','n','h','y','u','j','m','k','i','o','l','p','P','O','I','K','L','U','J','M','Y','H','N','B','G','T','R','F','V','C','D','E','W','S','X','Q','Z','A'};
 
